@@ -1,0 +1,56 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  padding: 2rem;
+}
+
+// hero content - primary heading
+.heading {
+  color: $color-white;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+
+  &--prime {
+    display: block;
+    letter-spacing: 1rem;
+    font-size: 6.9rem;
+    font-weight: 300;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+  }
+
+  &--sub {
+    display: block;
+    margin-bottom: 4rem;
+    letter-spacing: 1.3rem;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+  }
+}
+
+// secondary heading
+.secondary-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  @include bgText;
+  &:hover {
+    transform: skewY(2deg) skewX(15deg);
+    text-shadow: 0.6rem 1rem 2rem ($color-black, 0.2);
+  }
+}
+
+.teritary-heading {
+  font-size: $default-fontSize;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: $small-marginBottom;
+  color: $color-headingGray;
+}
+
+.paragraph {
+  font-size: $default-fontSize;
+  font-weight: 400;
+  color: $color-fontGray;
+}

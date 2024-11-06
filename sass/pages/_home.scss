@@ -1,0 +1,64 @@
+.secondaryContainer {
+  //   height: 60vh;
+  background-color: $color-grayColor1;
+  margin-top: -20vh;
+  padding: 18rem 0rem;
+}
+
+.feature-section {
+  padding: 18rem 0;
+  // height: 65vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primaryColor, 0.8),
+      rgba($color-secondaryColor, 0.8)
+    ),
+    url(./assets/img/jk-resort-BG.jpg);
+  background-size: cover;
+  margin-top: -6.8rem;
+  transform: skewY(-7deg);
+  & > * {
+    transform: skewY(7deg);
+  }
+}
+
+// Tour cards
+.TourCards {
+  padding: 20rem 0 12rem 0;
+  background-color: $color-grayColor1;
+  margin-top: -10rem;
+}
+
+// story section
+
+.story__section {
+  padding: 8rem 0 12rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+// Booking section
+.bookingSection {
+  padding: 20rem 0rem;
+  background-color: rgba($color-primaryColor, 0.8);
+}
+
+.bookImage {
+  background-image: linear-gradient(
+      105deg,
+      rgba($color-white, 0.8) 0%,
+      rgba($color-white, 0.8) 50%,
+      transparent 50%
+    ),
+    url(/assets/img/bookingBG.jpg);
+  height: 45rem;
+  width: 100%;
+  background-size: 100%;
+  box-shadow: 0rem 2rem 3rem rgba($color-black, 0.2);
+  border-radius: 3px;
+
+  &__form {
+    width: 50%;
+    padding: 5rem;
+  }
+}

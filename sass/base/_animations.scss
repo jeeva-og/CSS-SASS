@@ -1,0 +1,41 @@
+// Primary text - prime animation
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-19rem);
+  }
+  80% {
+    transform: translateX(0.625rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+// primaty text - sub animation
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(19rem);
+  }
+  80% {
+    transform: translateX(-0.625rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+// button animation
+@keyframes moveINDowntoUp {
+  0% {
+    opacity: 0;
+    transform: translateY(9.4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

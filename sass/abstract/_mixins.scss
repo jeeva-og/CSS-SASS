@@ -1,0 +1,18 @@
+@mixin clearFix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin bgText {
+  display: inline-block;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(
+    to right,
+    $color-primaryColor,
+    $color-secondaryColor
+  );
+}

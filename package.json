@@ -1,0 +1,14 @@
+{
+  "name": "jkresort",
+  "version": "1.0.0",
+  "description": "responsive design of business website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss style.css"
+  },
+  "author": "jk",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

@@ -1,0 +1,40 @@
+.footer {
+  background-color: $color-primaryDarkGray;
+  position: relative;
+
+  &__logo-box {
+    text-align: center;
+  }
+
+  &__list {
+    list-style: none;
+    border-top: 2px solid $color-white;
+    display: inline-block;
+    margin-bottom: 10rem;
+  }
+
+  &__links {
+    display: inline-block;
+    color: $color-white;
+    padding: 3px;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+
+    &:hover,
+    &:active {
+      box-shadow: 0rem 1rem 2rem rgba($color-black, 5);
+      background-color: $color-black;
+      transform: rotate(5deg) scale(1.2);
+      color: $color-primaryColor;
+    }
+  }
+
+  &__copyRights {
+    color: $color-white;
+    border-top: 2px solid $color-white;
+    padding-top: 1rem;
+  }
+}

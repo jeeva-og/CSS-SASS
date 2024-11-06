@@ -1,0 +1,40 @@
+// Colors
+$color-primaryColor: #74c0fc;
+$color-secondaryColor: #228be6;
+$color-black: black;
+$color-white: #fff;
+$color-grayColor1: #f8f9fa;
+$color-fontGray: #868e96;
+$color-headingGray: #868e96;
+$color-primarygreen: #40c057;
+$color-primaryDarkGray: #212529;
+// grid-width
+$grid-width: 72.5rem;
+$gutter-horizontal: 5rem;
+$gutter-vertical: 4rem;
+
+$small-marginBottom: 1.5rem;
+$medium-marginBottom: 3rem;
+$large-marginBottom: 5rem;
+// default font size
+$default-fontSize: 1.3rem;
+
+// Gradient colors
+$primary-gradientBlue: linear-gradient(
+  90deg,
+  rgba(14, 0, 250, 1) 0%,
+  // rgba(6, 6, 242, 1) 10%,
+  rgba(0, 212, 255, 1) 100%
+);
+
+$primary-gradientGreen: linear-gradient(
+  0deg,
+  rgba(148, 195, 34, 1) 0%,
+  rgba(13, 217, 26, 1) 100%
+);
+
+$primary-imageGradientRed: linear-gradient(
+  180deg,
+  rgba(253, 29, 29, 1) 21%,
+  rgba(252, 176, 69, 1) 100%
+);

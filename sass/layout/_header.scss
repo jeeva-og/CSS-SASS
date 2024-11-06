@@ -1,0 +1,22 @@
+// header with hero container
+.heroContainer {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primaryColor, 0.8),
+      rgba($color-secondaryColor, 0.8)
+    ),
+    url(./assets/img/hero-img.jpg);
+  height: 95vh;
+  background-position: top;
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+  &__text-box {
+    top: 45%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
